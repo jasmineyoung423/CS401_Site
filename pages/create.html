@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../styles.css">
+        <title>Myth Text</title>
+    </head>
+    <body class="home font">
+        <nav class="greyBackground navSpacing">
+            <img src="LOGO GOES HERE" href="LOGO GOES HERE">
+            <a href="../index.html">Home</a>
+            <a href="adventures.html">Adventures</a>
+            <a href="links.html">Links</a>
+            <a class="navActive" id="rightAlign" href="login.html">Login</a>
+        </nav>
+        <div class="centreContent">
+        <h1>CREATE ACCOUNT</h1>
+            <form action="creation_handler.php" method="post">
+                <h2>ACCOUNT</h2>
+                <p>USERNAME <span class="required">*</span></p>
+                <input type="text" name="username">
+                <p>PASSWORD <span class="required">*</span></p>
+                <input type="text" name="password">
+                <p>VERIFY PASSWORD <span class="required">*</span></p>
+                <input type="text" name="passwordVerify">
+                <h2>PERSONAL</h2>
+                <p>FIRST NAME <span class="required">*</span></p>
+                <input type="text" name="firstName">
+                <p>LAST NAME <span class="required">*</span></p>
+                <input type="text" name="lastName">
+                <p>EMAIL <span class="required">*</span></p>
+                <input type="text" name="email">
+                <div class="spacing"></div>
+                <input class="lookLikeButton" type="submit">
+            </form>
+        </div>
+    </body>
+</html>

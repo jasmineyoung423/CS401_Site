@@ -1,0 +1,149 @@
+/*
+281A19 Eerie Black
+060021 Rich Black (bluish)
+213330 Medium Jungle Green
+271330 Dark Purple
+3F1925 Dark Sienna
+*/
+
+:root
+{
+    --blackBG: #281A19;
+    --blueBG: #060021;
+    --greenBG: #213330;
+    --purpleBG: #271330;
+    --redBG: #3F1925;
+    --mainBG: #fefaf9;
+    --preferredFont: Georgia;
+}
+
+/* ====================================================================================
+    COLOURS
+==================================================================================== */
+
+.home
+{
+    background-color: var(--mainBG);
+}
+
+.blackBackground
+{
+    background-color: var(--blackBG);
+}
+
+.blueBackground
+{
+    background-color: var(--blueBG);
+}
+
+.greenBackground
+{
+    background-color: var(--greenBG);
+}
+
+.purpleBackground
+{
+    background-color: var(--purpleBG);
+}
+
+.redBackground
+{
+    background-color: var(--redBG);
+}
+
+.greyBackground
+{
+    background-color: grey;
+}
+
+.centreContent
+{
+    align-content: center;
+    text-align: center;
+}
+
+.lookLikeButton
+{
+    background-color: darkgrey;
+    border-radius: 15px;
+    padding: 5px;
+    color: white;   
+}
+
+.spacing
+{
+    margin: 15px;
+}
+
+.font
+{
+    font-family: var(--preferredFont);
+}
+
+.required
+{
+    color: red;
+}
+
+.onLeft
+{
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+}
+
+.onRight
+{
+    width: 40%;
+    float:right;
+    padding-right: 5%;
+}
+
+.smallBox
+{
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#rightAlign
+{
+    margin-left: 20px;
+    float: right;
+    padding-right: 10px;
+}
+
+.navSpacing
+{
+    height: 30px;
+    margin: 0 0 5 0;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.navActive
+{
+    color: lightsteelblue;
+}
+
+nav a
+{
+    color: white;
+}
+
+.textColor
+{
+    color: antiquewhite;
+}
+
+.optionSpace
+{
+    margin-top: 10%;
+}
+
+p
+{
+    line-height: 24px;
+}
+
